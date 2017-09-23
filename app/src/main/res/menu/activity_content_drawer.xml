@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/genesis" android:title="Genesis"/>
+        <item android:id="@+id/exodus" android:title="Exodus"/>
+        <item android:id="@+id/leviticus" android:title="Leviticus"/>
+        <item android:id="@+id/numbers" android:title="Numbers"/>
+        <item android:id="@+id/deuteronomy" android:title="Deuteronomy"/>
+        <item android:id="@+id/joshua" android:title="Joshua"/>
+        <item android:id="@+id/judges" android:title="Judges"/>
+        <item android:id="@+id/ruth" android:title="Ruth"/>
+        <item android:id="@+id/samuela" android:title="1 Samuel"/>
+        <item android:id="@+id/samuelb" android:title="2 Samuel"/>
+        <item android:id="@+id/kingsa" android:title="1 Kings"/>
+        <item android:id="@+id/kingsb" android:title="2 Kings"/>
+        <item android:id="@+id/chroniclesa" android:title="1 Chronicles"/>
+        <item android:id="@+id/chroniclesb" android:title="2 Chronicles"/>
+        <item android:id="@+id/ezra" android:title="Ezra"/>
+        <item android:id="@+id/nehemiah" android:title="Nehemiah"/>
+        <item android:id="@+id/esther" android:title="Esther"/>
+        <item android:id="@+id/job" android:title="Job"/>
+        <item android:id="@+id/psalm" android:title="Psalm"/>
+        <item android:id="@+id/proverbs" android:title="Proverbs"/>
+        <item android:id="@+id/ecclesiastes" android:title="Ecclesiastes"/>
+        <item android:id="@+id/songofsolomon" android:title="Song of Solomon"/>
+        <item android:id="@+id/isaiah" android:title="Isaiah"/>
+        <item android:id="@+id/jeremiah" android:title="Jeremiah"/>
+        <item android:id="@+id/lamentations" android:title="Lamentations"/>
+        <item android:id="@+id/ezekiel" android:title="Ezekiel"/>
+        <item android:id="@+id/daniel" android:title="Daniel"/>
+        <item android:id="@+id/hosea" android:title="Hosea"/>
+        <item android:id="@+id/joel" android:title="Joel"/>
+        <item android:id="@+id/amos" android:title="Amos"/>
+        <item android:id="@+id/obadiah" android:title="Obadiah"/>
+        <item android:id="@+id/jonah" android:title="Jonah"/>
+        <item android:id="@+id/micah" android:title="Micah"/>
+        <item android:id="@+id/nahum" android:title="Nahum"/>
+        <item android:id="@+id/habakkuk" android:title="Habakkuk"/>
+        <item android:id="@+id/zephaniah" android:title="Zephaniah"/>
+        <item android:id="@+id/haggai" android:title="Haggai"/>
+        <item android:id="@+id/zechariah" android:title="Zechariah"/>
+        <item android:id="@+id/malachi" android:title="Malachi"/>
+        <item android:id="@+id/matthew" android:title="Matthew"/>
+        <item android:id="@+id/mark" android:title="Mark"/>
+        <item android:id="@+id/luke" android:title="Luke"/>
+        <item android:id="@+id/john" android:title="John"/>
+        <item android:id="@+id/acts" android:title="Acts"/>
+        <item android:id="@+id/romans" android:title="Romans"/>
+        <item android:id="@+id/corinthiansa" android:title="1 Corinthians"/>
+        <item android:id="@+id/corinthiansb" android:title="2 Corinthians"/>
+        <item android:id="@+id/galatians" android:title="Galatians"/>
+        <item android:id="@+id/ephesians" android:title="Ephesians"/>
+        <item android:id="@+id/philippians" android:title="Philippians"/>
+        <item android:id="@+id/colossians" android:title="Colossians"/>
+        <item android:id="@+id/thessaloniansa" android:title="1 Thessalonians"/>
+        <item android:id="@+id/thessaloniansb" android:title="2 Thessalonians"/>
+        <item android:id="@+id/timothya" android:title="1 Timothy"/>
+        <item android:id="@+id/timothyb" android:title="2 Timothy"/>
+        <item android:id="@+id/titus" android:title="Titus"/>
+        <item android:id="@+id/philemon" android:title="Philemon"/>
+        <item android:id="@+id/hebrews" android:title="Hebrews"/>
+        <item android:id="@+id/james" android:title="James"/>
+        <item android:id="@+id/petera" android:title="1 Peter"/>
+        <item android:id="@+id/peterb" android:title="2 Peter"/>
+        <item android:id="@+id/johna" android:title="1 John"/>
+        <item android:id="@+id/johnb" android:title="2 John"/>
+        <item android:id="@+id/johnc" android:title="3 John"/>
+        <item android:id="@+id/jude" android:title="Jude"/>
+        <item android:id="@+id/revelation" android:title="Revelation"/>
+
+</menu>
