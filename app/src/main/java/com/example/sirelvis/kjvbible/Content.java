@@ -1,5 +1,6 @@
 package com.example.sirelvis.kjvbible;
 
+import android.Manifest;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.view.ContextMenu;
 import android.view.View;
@@ -118,7 +120,6 @@ public class Content extends AppCompatActivity
             } else {
                 item.setTitle("Normal Mode");
                 Main.isNight = true;
-                refresh();
             }
         }
 
@@ -559,8 +560,15 @@ public class Content extends AppCompatActivity
 
         final File file = new File(path, "bookmarks.elv");
         try{
+
             FileOutputStream fOut = new FileOutputStream(file, true);
             OutputStreamWriter myOutWriter = new OutputStreamWriter(fOut);
+
+            if (android.os.Build.VERSION.SDK_INT > android.os.Build.VERSION_CODES.LOLLIPOP){
+                ActivityCompat.requestPermissions(Content.this,
+                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                        1);
+            }
             myOutWriter.append(content);
             myOutWriter.append("\n");
             myOutWriter.close();
